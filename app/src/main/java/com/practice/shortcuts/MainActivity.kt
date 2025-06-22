@@ -163,10 +163,13 @@ class MainActivity : ComponentActivity() {
                                 message = "Sucessfully Created ShortCut"
                             )
                         }
-                    viewMode.cleaingAfterSHortCut()
-                    }
-                    else{
-                        Toast.makeText(applicationContext, "Please Enter the Name", Toast.LENGTH_SHORT).show()
+                        viewMode.cleaingAfterSHortCut()
+                    } else {
+                        Toast.makeText(
+                            applicationContext,
+                            "Please Enter the Name",
+                            Toast.LENGTH_SHORT
+                        ).show()
 
                     }
                 }
@@ -178,7 +181,6 @@ class MainActivity : ComponentActivity() {
                     fontSize = 22.sp,
                     textAlign = TextAlign.Center
                 )
-
 //                if (viewMode.buttonOnClick.value) {
 //                    viewMode.shortNameing()
 //                }
