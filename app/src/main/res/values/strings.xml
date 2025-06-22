@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shortcuts</string>
+    <string name="short_name">Shortcut Name</string>
+    <string name="short_long_name">it is the name of a shortcut</string>
+    <string name="chat_name">chat shortcut Name</string>
+    <string name="chat_long_name">it is the name of a chat shortcut</string>
+</resources>
